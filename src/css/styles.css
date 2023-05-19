@@ -24,3 +24,13 @@ body{
     border-radius: 5px;
     text-align: center;
 }
+.container::after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 120%;
+    background-color: #ffffff;
+    z-index: -1;
+    top: -10%;
+    left: 10%;
+}
