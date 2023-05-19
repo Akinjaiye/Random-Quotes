@@ -45,4 +45,14 @@ body{
     font-weight: 600;
     text-transform: capitalize;
 }
+.container button{
+    background-color: #ffffff;
+    border: none;
+    padding: 15px 45px;
+    border-radius: 5px;
+    font-size:18px ;
+    color: #f43543;
+    cursor: pointer;
+}
+
 
